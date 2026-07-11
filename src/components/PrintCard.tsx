@@ -16,7 +16,7 @@ export default function PrintCard() {
 
   return (
     <div className="print-card" aria-hidden="true">
-      <p className="print-title">Kevin的大陸旅遊隨身小卡（查核日 {LAST_CHECKED}）</p>
+      <p className="print-title">Kevin的赴陸旅遊教戰守則隨身小卡（查核日 {LAST_CHECKED}）</p>
       <div className="print-cols">
         <div className="print-fold">
           <h2>出發必備</h2>

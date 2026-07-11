@@ -21,7 +21,7 @@ export default function Nav() {
     <nav className={`nav${scrolled ? " nav-scrolled" : ""}`} aria-label="主要區塊導覽">
       <div className="container nav-inner">
         <a className="nav-brand" href="#top">
-          Kevin的大陸旅遊<span>生活教戰守則</span>
+          Kevin的赴陸旅遊教戰守則
         </a>
         <div className="nav-links">
           {navItems.map((item) => (
@@ -48,4 +48,3 @@ export default function Nav() {
     </nav>
   );
 }
-

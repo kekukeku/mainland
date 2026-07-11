@@ -249,14 +249,6 @@ ul {
   text-decoration: none;
   white-space: nowrap;
 }
-.nav-brand span {
-  color: var(--color-primary);
-}
-@media (max-width: 1240px) {
-  .nav-brand span {
-    display: none;
-  }
-}
 .nav-links {
   display: none;
   align-items: center;
