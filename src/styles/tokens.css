@@ -1,0 +1,72 @@
+:root {
+  /* 色彩系統 (Color Palette) - 千里江山青綠與水墨宣紙配色 */
+  --color-bg-base: #faf8f5;         /* 宣紙白：主背景，仿溫潤熟宣紙質感 */
+  --color-bg-canvas: #f2efe6;       /* 煙雨灰：次要背景與區塊邊界，仿淡水墨暈染 */
+  --color-bg-card: #ffffff;         /* 純白：卡片主體，建立紙藝浮雕層次 */
+  --color-text-primary: #1a1c1b;    /* 徽墨黑：主標題與主要文字，仿徽州松煙墨 */
+  --color-text-secondary: #4a504d;  /* 黛灰：副標題與說明文字 */
+  --color-text-muted: #8ba196;      /* 苔綠灰：已完成與低優先級文字 */
+  
+  /* 中國傳統色彩：青綠與硃砂 */
+  --color-primary: #185a4a;         /* 石綠/江山青綠：全站主要品牌色，明亮清新 */
+  --color-primary-light: #eff7f5;   /* 淺青綠底：區塊或提示高亮底色 */
+  --color-success: #2c6a4f;         /* 竹青綠：完成狀態、安全提示 */
+  --color-success-light: #edf7f2;   /* 竹青綠淺底 */
+  
+  --color-accent: #c83c2e;          /* 落款硃砂紅：印章、警告、核心緊急按鈕 (SOS) */
+  --color-accent-light: #fdf2f1;    /* 硃砂紅淺底 */
+  --color-gold: #d4a373;            /* 泥金：精緻線條、勳章裝飾 */
+  
+  /* 邊框與陰影 (Borders & Shadows) */
+  --border-width-thin: 1px;
+  --border-width-thick: 2px;
+  --border-color: rgba(24, 90, 74, 0.12); /* 以青綠為底的淡邊框 */
+  --border-color-active: rgba(24, 90, 74, 0.35);
+  
+  /* 柔和的浮雕陰影，融入淡淡的青綠/水墨色調 */
+  --shadow-sm: 0 2px 10px rgba(24, 90, 74, 0.03);
+  --shadow-md: 0 8px 30px rgba(24, 90, 74, 0.06);
+  --shadow-lg: 0 16px 45px rgba(24, 90, 74, 0.1);
+  
+  /* 圓角系統 (Border Radius) - 俐落但帶點溫和的弧度 */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  
+  /* 字體系統 (Typography) */
+  --font-serif: "Noto Serif TC", "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", "Noto Sans TC", system-ui, -apple-system, sans-serif;
+  
+  /* 間距系統 (Spacing) */
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+  
+  /* 版面 (Layout) */
+  --content-max: 1200px;
+  
+  /* 轉場動效 (Transitions) */
+  --transition-fast: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* 為了落實「明亮、清新、水墨宣紙」之美，
+   即使在深色模式下，也維持一致的優雅宣紙明亮色系，
+   僅做微幅的字體對比微調，避免深沉黑色帶來的壓迫感 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg-base: #f7f5ef;
+    --color-bg-canvas: #ebe8dc;
+    --color-bg-card: #ffffff;
+    --color-text-primary: #161817;
+    --color-text-secondary: #434846;
+    --color-border: rgba(24, 90, 74, 0.18);
+    --shadow-sm: 0 2px 10px rgba(24, 90, 74, 0.05);
+    --shadow-md: 0 8px 30px rgba(24, 90, 74, 0.08);
+    --shadow-lg: 0 16px 45px rgba(24, 90, 74, 0.12);
+  }
+}
+
