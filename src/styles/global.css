@@ -35,7 +35,7 @@ body {
   background-color: var(--color-bg-base);
   background-image: 
     linear-gradient(to bottom, rgba(250, 248, 245, 0.35), var(--color-bg-base) 1000px),
-    url("/mainland/landscape-bg.jpg");
+    url("/landscape-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 100% auto;

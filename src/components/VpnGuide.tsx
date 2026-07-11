@@ -38,12 +38,12 @@ export default function VpnGuide() {
                   <div style={{ display: "flex", gap: "0.75rem", alignItems: "flex-start" }}>
                     <div style={{ display: "flex", gap: "0.5rem", flexShrink: 0 }}>
                       <img 
-                        src="/mainland/shadowrocket-logo.webp" 
+                        src={`${import.meta.env.BASE_URL}shadowrocket-logo.webp`}
                         alt="Shadowrocket Logo" 
                         style={{ width: "42px", height: "42px", borderRadius: "10px", objectFit: "cover", boxShadow: "0 2px 4px rgba(0,0,0,0.1)" }} 
                       />
                       <img 
-                        src="/mainland/loon-logo.jpg" 
+                        src={`${import.meta.env.BASE_URL}loon-logo.jpg`}
                         alt="Loon Lite Logo" 
                         style={{ width: "42px", height: "42px", borderRadius: "10px", objectFit: "cover", boxShadow: "0 2px 4px rgba(0,0,0,0.1)" }} 
                       />
@@ -59,7 +59,7 @@ export default function VpnGuide() {
                   {/* Android/Windows 推薦 */}
                   <div style={{ display: "flex", gap: "0.75rem", alignItems: "flex-start" }}>
                     <img 
-                      src="/mainland/clashmi-cat.png" 
+                      src={`${import.meta.env.BASE_URL}clashmi-cat.png`}
                       alt="ClashMi Logo" 
                       style={{ width: "42px", height: "42px", borderRadius: "10px", objectFit: "cover", backgroundColor: "#f0fdf4", padding: "2px", boxShadow: "0 2px 4px rgba(0,0,0,0.1)", flexShrink: 0 }} 
                     />
