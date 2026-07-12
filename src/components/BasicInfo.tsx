@@ -45,7 +45,7 @@ export default function BasicInfo() {
               <h3 className="app-card-name" style={{ marginBottom: "0.5rem", color: "var(--color-primary)" }}>
                 {item.title}
               </h3>
-              <p className="check-note" style={{ fontSize: "0.95rem", color: "var(--color-text-secondary)" }}>
+              <p className="check-note" style={{ fontSize: "1.05rem", color: "var(--color-text-secondary)" }}>
                 {item.desc}
               </p>
             </article>

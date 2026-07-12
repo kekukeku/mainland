@@ -11,7 +11,7 @@ export default function DecisionTable() {
   const recommended = scenario.recommend;
 
   return (
-    <section className="section" id="network" aria-labelledby="network-title">
+    <section className="section bg-ink-wash" id="network" aria-labelledby="network-title">
       <div className="container">
         <div className="section-head">
           <span className="section-eyebrow">網路決策器</span>

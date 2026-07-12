@@ -2,7 +2,7 @@ import { appItems } from "../content/guide";
 
 export default function AppToolkit() {
   return (
-    <section className="section" id="apps" aria-labelledby="apps-title">
+    <section className="section bg-app-names" id="apps" aria-labelledby="apps-title">
       <div className="container">
         <div className="section-head">
           <span className="section-eyebrow">必備 App 工具箱</span>

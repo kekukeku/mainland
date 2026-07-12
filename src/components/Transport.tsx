@@ -34,7 +34,7 @@ export default function Transport() {
           <article className="card">
             <h3 className="app-card-name">🚄 高鐵</h3>
             <p className="app-card-purpose">
-              比較 12306（官方、價格直接）與 Trip.com（新手友善、可能有服務費）。
+              比較 12306（官方、價格直接）與 攜程旅行/去哪兒旅行（新手友善、可能有服務費）。
             </p>
             <p className="check-note">
               需臺胞證實名購票、進站與安檢，記得走人工通道。進站和安檢常常會大排長龍，發車前幾分鐘就會關閘門，預留出發前一小時到車站較佳（Kevin大量血淚經驗)。

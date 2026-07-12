@@ -21,7 +21,7 @@ export default function BankOpening() {
             <p className="check-note" style={{ marginBottom: "0.5rem" }}>
               前往任何大陸銀行開戶，以下三項是最基本的門檻：
             </p>
-            <ul style={{ margin: 0, paddingLeft: "1.25rem", listStyleType: "disc", display: "flex", flexDirection: "column", gap: "0.35rem", fontSize: "0.9rem" }}>
+            <ul style={{ margin: 0, paddingLeft: "1.25rem", listStyleType: "disc", display: "flex", flexDirection: "column", gap: "0.35rem", fontSize: "1rem" }}>
               <li>
                 <strong>有效期內臺胞證</strong>：必須為卡式臺胞證實體本。
               </li>
@@ -42,7 +42,7 @@ export default function BankOpening() {
             <p className="check-note" style={{ marginBottom: "0.5rem" }}>
               由於嚴格防範金融詐騙，近年開戶審核標準非常嚴格，且各城市、分行間標準天差地遠：
             </p>
-            <ul style={{ margin: 0, paddingLeft: "1.25rem", listStyleType: "disc", display: "flex", flexDirection: "column", gap: "0.35rem", fontSize: "0.9rem" }}>
+            <ul style={{ margin: 0, paddingLeft: "1.25rem", listStyleType: "disc", display: "flex", flexDirection: "column", gap: "0.35rem", fontSize: "1rem" }}>
               <li>
                 無當地工作、在學證明的散客，行員有權拒絕受理，開戶非常考驗運氣與耐心。
               </li>
@@ -60,12 +60,12 @@ export default function BankOpening() {
             <p className="check-note" style={{ marginBottom: "0.5rem" }}>
               若不想碰釘子，推薦以下兩個最容易成功的綠色通道：
             </p>
-            <ul style={{ margin: 0, paddingLeft: "1.25rem", listStyleType: "disc", display: "flex", flexDirection: "column", gap: "0.5rem", fontSize: "0.9rem" }}>
+            <ul style={{ margin: 0, paddingLeft: "1.25rem", listStyleType: "disc", display: "flex", flexDirection: "column", gap: "0.5rem", fontSize: "1rem" }}>
               <li>
-                <strong>廈門所有銀行（極力推薦）</strong>：廈門因對臺政策窗口，所有分行對臺胞開戶限制特別寬鬆。幾乎<strong>只要準備好臺胞證與大陸實名手機號碼</strong>就能順利辦理開戶，極適合搭乘小三通專程前往開戶。
+                <strong>廈門的所有銀行（推薦）</strong>：因對臺政策窗口，在廈門所有分行對臺胞開戶特別寬鬆，只要準備好<strong>臺胞證與大陸實名手機號碼</strong>就能順利辦理開戶，日後有臨櫃業務時，搭乘小三通來往也最近最方便。
               </li>
               <li>
-                <strong>富邦華一銀行（臺資背景）</strong>：作為臺商專門銀行，對臺灣同胞的開戶政策同樣相當寬鬆，通常只要攜帶<strong>臺胞證</strong>與實名號碼即可受理開戶，在各大一線城市（如上海、深圳等）均有設點。
+                <strong>富邦華一銀行（臺資）</strong>：身為臺灣的銀行，對臺胞的開戶政策同樣寬鬆，只要攜帶<strong>臺胞證</strong>與實名手機號即可受理開戶，在各大一線城市均有設點。
               </li>
             </ul>
           </article>

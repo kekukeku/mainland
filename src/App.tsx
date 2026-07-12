@@ -75,12 +75,14 @@ export default function App() {
         <Transport />
         <RouteCards />
         <Pitfalls />
-        <Faq />
-        <BankOpening />
-        <EmergencyCard
-          drawerOpen={sosOpen}
-          onCloseDrawer={() => setSosOpen(false)}
-        />
+        <div className="bg-waterfall">
+          <Faq />
+          <BankOpening />
+          <EmergencyCard
+            drawerOpen={sosOpen}
+            onCloseDrawer={() => setSosOpen(false)}
+          />
+        </div>
       </main>
       <Footer />
       <PrintCard />

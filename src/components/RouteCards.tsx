@@ -2,7 +2,7 @@ import { routeCards } from "../content/guide";
 
 export default function RouteCards() {
   return (
-    <section className="section" id="routes" aria-labelledby="routes-title">
+    <section className="section bg-birds-flowers" id="routes" aria-labelledby="routes-title">
       <div className="container">
         <div className="section-head">
           <span className="section-eyebrow">第一次去哪裡</span>
